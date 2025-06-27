@@ -40,8 +40,8 @@ def extract_subject_and_body(text):
         raise ValueError("Couldn't extract subject and body from the text.")
 
 # Email credentials
-sender_email = "krisakik6@gmail.com"
-sender_password = "fymaqrhjrxxorich"  # Use your Gmail App Password
+sender_email = " "
+sender_password = " "  # Use your Gmail App Password
 
 # SMTP Server
 smtp_server = "smtp.gmail.com"
