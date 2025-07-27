@@ -1,0 +1,6 @@
+//dependencies
+fastapi          //builds the API
+uvicorn          //running the fastAPI application
+ollama
+python-dotenv    //loads an environment variable file
+requests         //tests the API
