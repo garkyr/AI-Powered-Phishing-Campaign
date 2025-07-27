@@ -45,7 +45,7 @@ def extract_subject_and_body(text):
 
 # Email credentials
 sender_email = input("Enter your sender email address: ").strip()
-sender_password = getpass.getpass("Enter your email password or App Password (input hidden): ").strip()
+sender_password = getpass.getpass("Enter your App Password (input hidden): ").strip()
 
 # SMTP Server
 smtp_server = "smtp.gmail.com"
