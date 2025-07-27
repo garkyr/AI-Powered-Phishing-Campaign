@@ -1,0 +1,68 @@
+<html>
+<head>
+    <style>
+    body {{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }}
+    .container {{
+        background-color: #ffffff;
+        max-width: 600px;
+        margin: 30px auto;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }}
+    .header {{
+        background: linear-gradient(to right, #d8bfd8, #e6e6fa);
+        color: #333333;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Helvetica', serif;
+    }}
+    .content {{
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }}
+    p {{
+        color: #555555;
+        line-height: 1.6;
+    }}
+    .cta {{
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }}
+    .footer {{
+        margin-top: 30px;
+        font-size: 12px;
+        color: #999999;
+        text-align: center;
+        padding: 10px;
+    }}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        {subject}
+    </div>
+    <div class="content">
+        <p>{html_body}</p>
+        <div class="footer">
+        You are receiving this email because you opted in.
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
